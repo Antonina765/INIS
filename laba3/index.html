@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>TechBlog — Статья</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="main-header">
+    <h1>TechBlog</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+
+    <article class="post">
+
+        <header>
+            <h2>Как начать изучать веб-разработку</h2>
+            <p class="meta">
+                Опубликовано <time datetime="2026-02-20">20 февраля 2026</time> |
+                Автор: <strong>Антонина Капуза</strong>
+            </p>
+            <div class="like-block">
+                <button id="likeBtn">👍 Like</button>
+                <span id="likeCount">0</span>
+            </div>
+        </header>
+
+
+        <section>
+            <h3>Введение</h3>
+            <p>
+                Веб-разработка — одна из самых востребованных профессий сегодня.
+                В этой статье мы разберём основные шаги для новичков.
+            </p>
+
+            <img src="https://via.placeholder.com/600x300"
+                 alt="Пример кода на экране">
+
+            <blockquote>
+                «Лучший способ научиться программировать — писать код каждый день.»
+            </blockquote>
+        </section>
+
+
+        <section>
+            <h3>С чего начать</h3>
+
+            <h4>Основные технологии</h4>
+            <ul>
+                <li>HTML — структура страницы</li>
+                <li>CSS — стилизация</li>
+                <li>JavaScript — интерактивность</li>
+            </ul>
+
+            <h4>План обучения</h4>
+            <ol>
+                <li>Изучить основы HTML</li>
+                <li>Освоить CSS</li>
+                <li>Сделать 3-5 проектов</li>
+            </ol>
+        </section>
+
+
+        <section>
+            <h3>Популярные языки программирования</h3>
+            <table>
+                <tr>
+                    <th>Язык</th>
+                    <th>Применение</th>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Frontend и Backend</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Backend, анализ данных</td>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                    <td>Веб и игры</td>
+                </tr>
+            </table>
+        </section>
+
+    </article>
+
+
+    <aside class="author">
+        <h3>Об авторе</h3>
+        <p>
+            Антонина — веб-разработчик с опытом 5 лет.
+            Пишет о программировании и технологиях.
+        </p>
+    </aside>
+
+
+    <section class="comments">
+        <h3>Комментарии</h3>
+
+        <article class="comment">
+            <p><strong>Анна:</strong> Отличная статья!</p>
+        </article>
+
+        <article class="comment">
+            <p><strong>Максим:</strong> Очень полезно для новичков.</p>
+        </article>
+
+        <h4>Оставить комментарий</h4>
+
+        <form>
+            <label>Имя:
+                <input type="text" name="name">
+            </label>
+
+            <label>Комментарий:
+                <textarea name="comment"></textarea>
+            </label>
+
+            <button type="submit">Отправить</button>
+        </form>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>© 2026 TechBlog</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
