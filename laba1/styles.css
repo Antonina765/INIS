@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+#main-header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+#main-header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.post {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex: 3;
+}
+
+.author {
+    background: #ecf0f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex: 1;
+}
+
+.post img {
+    width: 100%;
+    margin: 15px 0;
+}
+
+blockquote {
+    border-left: 5px solid #3498db;
+    padding-left: 10px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.comments {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.comment {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 5px;
+    border: 1px solid #aaa;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+}
